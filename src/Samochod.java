@@ -36,24 +36,20 @@ public class Samochod {
 
             if(tankowanie > (int)tankowanie){
                 tankowanie =  tankowanie +1;
-                System.out.println("Aby przejechac droge: " + jakDaleko + "Km potrzeba: "+jakDaleko/100*zuzycie_paliwa+ "L. paliwa");
-                System.out.println("I trzeba bedzie tankowac: " + (int)tankowanie +  " razy");
+
             }
-            else{
-                System.out.println("Aby przejechac droge: " + jakDaleko + "Km potrzeba: "+jakDaleko/100*zuzycie_paliwa+ "L. paliwa");
-                System.out.println("I trzeba bedzie tankowac: " + (int)tankowanie +  " razy");}
+            System.out.println("Aby przejechac droge: " + jakDaleko + "Km potrzeba: "+jakDaleko/100*zuzycie_paliwa+ "L. paliwa");
+            System.out.println("Ilosc tankowan: " + (int)tankowanie);
         }
         else {
 
             float tankowanie =  (jakDaleko/100 * this.zuzycie_paliwa/poj_baku)-1;
             if(tankowanie > (int)tankowanie){
                 tankowanie =  tankowanie +1;
-                System.out.println("Aby przejechac droge: " + jakDaleko + "Km potrzeba: "+jakDaleko/100*zuzycie_paliwa+ "L. paliwa");
-                System.out.println("Trzeba bedzie tankowac: " + (int)tankowanie +  " razy");
             }
-            else{
-                System.out.println("Aby przejechac droge: " + jakDaleko + " potrzeba: "+jakDaleko/100*zuzycie_paliwa+ "L. paliwa");
-                System.out.println("Trzeba bedzie tankowac: " + (int)tankowanie +  " razy");}
+            System.out.println("Aby przejechac droge: " + jakDaleko + "Km potrzeba: "+jakDaleko/100*zuzycie_paliwa+ "L. paliwa");
+            System.out.println("Ilosc tankowan: " + (int)tankowanie);
+
         }
         System.out.println();
 
